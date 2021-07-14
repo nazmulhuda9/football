@@ -12,6 +12,7 @@ body{
 .container{
     background-color: #2D25A0;
     width: 100%;
+    margin-bottom: 70px;
     
 }
 .cover-items{
@@ -49,4 +50,51 @@ body{
 
 
 
+}
+
+/* --------------
+top player list.
+-----------------*/
+.player-container{
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items: center;
+}
+.top-player{
+    display: flex;
+    width: 85%;
+    
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 40px;
+
+   
+}
+.player{
+   
+    display: flex;
+    flex-wrap: wrap;
+    align-items:flex-start;
+    margin: 10px;
+     padding: 15px;
+    width: 300px;
+    height: 474px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.player img{
+    width: 300px;
+    height: 256px;
+}
+.player-name{
+    font-size: 28px;
+    font-weight: bold;
+    color: #18191F;
+}
+.player-info{
+    font-size: 16px;
+    color: #6C6C6C;
 }
