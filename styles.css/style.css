@@ -7,7 +7,10 @@ body{
     background-color: #FFFFFF;
 }
 
-/* cover section */
+
+/* cover background
+--------section */
+
 
 .container{
     background-color: #2D25A0;
@@ -21,13 +24,23 @@ body{
   justify-content:center;
   align-items:center;
   padding: 50px;
-  
-    
+
+
+}
+
+.container:hover .cover-items img{
+    transform: scale(1.5);
+ transition: transform 2s ease-in-out;
 }
 .cover-items img{
     width: 556px;
     height: 438px;
 }
+.cover-item{
+
+    margin: 50px;  
+}
+
 .cover-title{
 
     font-weight:bold;
@@ -46,6 +59,8 @@ body{
     background-color: rgba(36, 94, 3, 0.938);
     padding: 10px 24px;
     font-weight: 500;
+    
+    
     
 
 
@@ -100,7 +115,11 @@ top player list.
     color: #6C6C6C;
 }
 
-/* player highlights */
+
+/* ------------
+player highlights
+---------------- */
+
 .copa-highlights{
     width: 90%;
     margin-left: 80px;
@@ -146,7 +165,7 @@ align-items: center;
     align-items:center;
     
     width: 483.87px;
-height: 213px;
+    height: 213px;
 }
 
     .footer-section img{
@@ -156,6 +175,8 @@ height: 213px;
     }
 
 .social-icon{
-    display: flex;
-    margin: 10px;
-}
+        margin: 10px;
+    }
+
+
+     
