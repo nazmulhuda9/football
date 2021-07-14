@@ -43,8 +43,8 @@ body{
 .cover-item a, .highlights-blog a{
     text-decoration: none;
     color: #FFFFFF;
-    background-color: rgba(67, 233, 142, 0.678);
-    padding: 10px 30px;
+    background-color: rgba(36, 94, 3, 0.938);
+    padding: 10px 24px;
     font-weight: 500;
     
 
@@ -104,6 +104,7 @@ top player list.
 .copa-highlights{
     width: 90%;
     margin-left: 80px;
+    margin-bottom: 100px;
 }
 .highlights{
     display: grid;
@@ -125,4 +126,36 @@ margin-left: 70px;
 .highlights img{
     width: 567px;
 height: 427px;
+}
+
+   /*---------
+    ----foooter  
+---------------*/
+
+.footer-container{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.footer-section{
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    
+    width: 483.87px;
+height: 213px;
+}
+
+    .footer-section img{
+        width: 483.87px;
+        height: 110px;
+
+    }
+
+.social-icon{
+    display: flex;
+    margin: 10px;
 }
