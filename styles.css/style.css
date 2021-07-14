@@ -40,7 +40,7 @@ body{
     margin: 50px;  
 }
 
-.cover-item a{
+.cover-item a, .highlights-blog a{
     text-decoration: none;
     color: #FFFFFF;
     background-color: rgba(67, 233, 142, 0.678);
@@ -60,6 +60,7 @@ top player list.
     flex-direction:row;
     justify-content:center;
     align-items: center;
+    margin-bottom: 80px;
 }
 .top-player{
     display: flex;
@@ -97,4 +98,31 @@ top player list.
 .player-info{
     font-size: 16px;
     color: #6C6C6C;
+}
+
+/* player highlights */
+.copa-highlights{
+    width: 90%;
+    margin-left: 80px;
+}
+.highlights{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+.highlights-blog{
+    width: 466px;
+margin-left: 70px;
+
+
+}
+.highlights-blog h1{
+    font-size: 48px;
+    color: #0A0826;
+    font-weight: bold;
+}
+
+.highlights img{
+    width: 567px;
+height: 427px;
 }
